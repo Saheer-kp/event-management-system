@@ -11,7 +11,7 @@
 ### 4. To clear the configuration and route cache
         php artisan config:cache
         php artisan route:cache
-### 5. To migrate databse tables      
+### 5. To migrate database tables      
         php artisan migrate
 ### 6. To run queue - needed to sending emails as background task
         php artisan queue:work     
