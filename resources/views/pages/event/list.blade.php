@@ -34,7 +34,7 @@
         @endforeach
         @if($events->total() == 0)
             <div class="col-md-12 mt-4 text-center">
-                <h5>No upcoming events found</h5>
+                <h5>No events found</h5>
             </div>
         @endif
         <div class="col-12 mt-3">

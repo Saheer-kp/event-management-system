@@ -42,7 +42,11 @@
                                         <button class="btn btn-sm btn-danger remove-user" data-eventid="{{ $event->id }}" data-userid="{{ $user->id }}">Remove</button></td>
                                 </tr>
                             @endforeach
-                           
+                           @if (count($event->eventUsers) == 0)
+                               <tr>
+                                   <td colspan="5" style="text-align:center"><strong>No Records</strong></td>
+                               </tr>
+                           @endif
                         </tbody>
                     </table>
                 </div>
