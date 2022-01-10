@@ -1,7 +1,6 @@
 # Event Management System
 ## Steps to install the project 
 ### 1. Download or clone the project to local server directory
-#### xampp server location : path-to-xampp-folder\xampp\htdocs\
 ### 2. Create a database named "event_management_system"
 ### 3. To install the project 
         composer install
