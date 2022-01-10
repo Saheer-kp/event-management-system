@@ -1,0 +1,21 @@
+.navbar-style {
+    box-shadow: 0 5px 10px #e0d9d9;
+}
+
+.app-title {
+    color: rgb(49, 49, 146) !important;
+}
+
+.main-title {
+ color:rgb(62, 62, 139) !important;
+}
+
+.menu li > a {
+    color: blue !important;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.btn-register, .btn-login {
+    color: #fff;
+}
